@@ -1,0 +1,82 @@
+.main{
+    display: grid;
+    gap:20px ;
+    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    margin: 20px;
+    padding: 0%;
+    border-radius: 10px 10px 10px 10px;
+    
+    /* background-color: black; */
+}
+.card{
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 10px black;
+    transition: 1s;
+    
+
+}
+.avl{
+    color: green;
+}
+.avl-l{
+    color: red;
+}
+.card-img{
+    width: 286px;
+    height: 200px;
+    box-shadow: 2px 2px 10px black;
+
+}
+/* .card-img-top{ */
+    /* border: 1px solid black; */
+
+/* } */
+/* .card:hover{
+    border-radius: 0px 0px 25px 25px;
+} */
+.card-title{
+    border-radius: 25px 25px 25px 25px ;
+    text-shadow: 2px 2px 10px black ;
+    text-align: center;
+}
+.one{
+    background-color: black;
+    color: white;
+    display: grid;
+    gap:20px ;
+    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    /* margin: 20px; */
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+}
+.bt:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+    border-radius: 25px 25px 25px 25px ;
+}
+.baner{
+    border: 3px solid black;
+    background-color:rgb(100, 95, 95);
+    /* border-radius: 100px 100px 100px 100px; */
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: inline-flexbox;
+    padding: 20px;
+    
+}
+.inner{
+    border: 3px solid white;
+    background-color: black;
+    border-radius: 100px 100px 100px 100px; 
+    box-shadow: 1px 1px 20px white;
+    padding: 20px;
+    display: inline-block;
+}
+.foot{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
